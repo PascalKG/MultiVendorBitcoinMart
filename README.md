@@ -90,9 +90,7 @@ composer install
 install MySQL (add a dedicated user for MultiVendorBitcoinMart)
 Then initialize the database with the scripts available at:[1234max.co.uk](http://1234max.co.uk)
 
-```bash
-for sql_file in app/install/*.sql; do mysql -uroot -p < $sql_file; done
-```
+
 
 ### bitcoind
 Install [Bitcoind](https://bitcoin.org/en/download) and modify the bitcoin.conf to contain at least:
